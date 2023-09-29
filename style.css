@@ -1,0 +1,48 @@
+.grid-box{
+    display: grid;
+    grid-template-columns: 10% auto;
+    grid-template-rows: auto auto 20%;
+    gap: 5px;
+}
+
+img{
+    height: 100px;
+    width: auto;
+}
+.img{
+    border: 3px solid black;
+    border-radius: 15px;
+    text-align: center;
+}
+
+header{
+    border: 3px solid black;
+    border-radius: 15px;
+    text-align: center;
+}
+nav{
+    border: 3px solid black;
+    border-radius: 15px;
+}
+nav > h2{
+    text-align: center;
+}
+main{
+    border: 3px solid black;
+    border-radius: 15px;
+    text-align: center;
+}
+.Artikel-1,.Artikel-2,.Artikel-3{
+    border: 3px solid black;
+    border-radius: 15px;
+    margin: 5px;
+}
+
+footer{
+    border: 3px solid black;
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
